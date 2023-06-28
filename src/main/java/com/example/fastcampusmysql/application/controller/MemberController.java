@@ -1,4 +1,4 @@
-package com.example.fastcampusmysql.controller;
+package com.example.fastcampusmysql.application.controller;
 
 import com.example.fastcampusmysql.domain.member.dto.MemberDto;
 import com.example.fastcampusmysql.domain.member.dto.MemberNicknameHistoryDto;
@@ -7,7 +7,6 @@ import com.example.fastcampusmysql.domain.member.service.MemberReadService;
 import com.example.fastcampusmysql.domain.member.service.MemberWriteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import org.w3c.dom.stylesheets.LinkStyle;
 
 import java.util.List;
 
