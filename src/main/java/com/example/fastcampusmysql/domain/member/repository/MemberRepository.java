@@ -21,7 +21,7 @@ public class MemberRepository {
 
     final private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
-    static final private String TABLE = "member";
+    static final private String TABLE = "Member";
 
     public Optional<Member> findById(Long id) {
         var sql = String.format("SELECT * FROM %s WHERE id = :id", TABLE);
