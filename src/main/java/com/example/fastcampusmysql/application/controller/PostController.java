@@ -47,4 +47,9 @@ public class PostController {
     ) {
         return postReadService.getPosts(memberId, cursorRequest);
     }
+
+    @PostMapping("/{postId}/like")
+    public void likePost(@PathVariable Long postId) {
+        postWriteService.likePost(postId);
+    }
 }
